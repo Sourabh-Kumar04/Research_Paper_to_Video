@@ -1,0 +1,125 @@
+version: '3.8'
+
+services:
+  # RASO Backend API
+  raso-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: raso-api
+    ports:
+      - "8000:8000"
+    environment:
+      - RASO_ENV=development
+      - RASO_LOG_LEVEL=INFO
+      - RASO_DATABASE_URL=redis://redis:6379/0
+      - RASO_OLLAMA_URL=http://ollama:11434
+      - RASO_DATA_PATH=/app/data
+      - RASO_TEMP_PATH=/app/temp
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./temp:/app/temp
+      - ./config:/app/config
+    depends_on:
+      - redis
+      - ollama
+    networks:
+      - raso-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # RASO Frontend
+  raso-frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.frontend
+    container_name: raso-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - raso-api
+    networks:
+      - raso-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  # Ollama for local LLM
+  ollama:
+    image: ollama/ollama:latest
+    container_name: raso-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - raso-network
+    restart: unless-stopped
+    environment:
+      - OLLAMA_ORIGINS=*
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Redis for job queue and caching
+  redis:
+    image: redis:7-alpine
+    container_name: raso-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - raso-network
+    restart: unless-stopped
+    command: redis-server --appendonly yes --maxmemory 512mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  # Animation Worker (for heavy rendering tasks)
+  animation-worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: raso-animation-worker
+    environment:
+      - RASO_ENV=development
+      - RASO_LOG_LEVEL=INFO
+      - RASO_DATABASE_URL=redis://redis:6379/0
+      - RASO_WORKER_MODE=animation
+      - RASO_DATA_PATH=/app/data
+      - RASO_TEMP_PATH=/app/temp
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./temp:/app/temp
+      - ./config:/app/config
+    depends_on:
+      - redis
+    networks:
+      - raso-network
+    restart: unless-stopped
+    command: ["python", "-m", "backend.workers.animation_worker"]
+
+volumes:
+  ollama_data:
+    driver: local
+  redis_data:
+    driver: local
+
+networks:
+  raso-network:
+    driver: bridge
