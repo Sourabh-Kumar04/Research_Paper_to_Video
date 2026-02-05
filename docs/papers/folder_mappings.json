@@ -1,0 +1,82 @@
+{
+  "Author_Test_Research_Paper_": {
+    "folder_path": "2024Author_Test_Research_Paper_for_Video_Generation",
+    "metadata": {
+      "title": "Test Research Paper for Video Generation",
+      "authors": [
+        "Test Author"
+      ],
+      "year": 2024,
+      "doi": null,
+      "venue": null,
+      "keywords": [
+        "video generation",
+        "AI",
+        "automation"
+      ]
+    },
+    "created_at": "2026-01-07T10:34:32.715236",
+    "template_used": "{year}/{first_author}_{sanitized_title}"
+  },
+  "Unknown_Au_RASO_Video": {
+    "folder_path": "2026Unknown_Author_RASO_Video_01",
+    "metadata": {
+      "title": "RASO_Video",
+      "authors": [],
+      "year": 2026,
+      "doi": null,
+      "venue": null,
+      "keywords": []
+    },
+    "created_at": "2026-01-07T18:52:23.578692",
+    "template_used": "{year}/{first_author}_{sanitized_title}"
+  },
+  "Vaswani_Attention_Is_All_You": {
+    "folder_path": "2026Vaswani_Attention_Is_All_You_Need_05",
+    "metadata": {
+      "title": "Attention Is All You Need",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "year": 2026,
+      "doi": null,
+      "venue": null,
+      "keywords": []
+    },
+    "created_at": "2026-01-07T21:21:02.204694",
+    "template_used": "{year}/{first_author}_{sanitized_title}"
+  },
+  "Is_Provided_proper_attr": {
+    "folder_path": "2026Is_Provided_proper_attribution_is_provided_Google_her_01",
+    "metadata": {
+      "title": "Provided proper attribution is provided, Google hereby grants permission to",
+      "authors": [
+        "Attention Is",
+        "Ashish Vaswani",
+        "Google Brain",
+        "Noam Shazeer",
+        "Google Brain",
+        "Niki Parmar",
+        "Google Research",
+        "Jakob Uszkoreit",
+        "Google Research",
+        "Llion Jones",
+        "Google Research",
+        "N. Gomez"
+      ],
+      "year": 2026,
+      "doi": null,
+      "venue": null,
+      "keywords": []
+    },
+    "created_at": "2026-01-07T20:07:56.578063",
+    "template_used": "{year}/{first_author}_{sanitized_title}"
+  }
+}

@@ -1,0 +1,92 @@
+# # # Multi-stage build for RASO Frontend
+# # FROM node:18-alpine as build
+
+# # # Set working directory
+# # WORKDIR /app
+
+# # # Copy package files
+# # COPY frontend/package*.json ./
+# # # RUN npm ci --only=production
+# # RUN npm install --omit=dev --legacy-peer-deps
+
+# # # Copy source code
+# # COPY frontend/ .
+
+# # # Build the application
+# # RUN npm run build
+
+# # # Production stage
+# # FROM nginx:alpine
+
+# # # Copy built assets from build stage
+# # COPY --from=build /app/build /usr/share/nginx/html
+
+# # # Copy nginx configuration
+# # COPY docker/nginx.conf /etc/nginx/nginx.conf
+
+# # # Expose port
+# # EXPOSE 80
+
+# # # Health check
+# # HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+# #     CMD wget --no-verbose --tries=1 --spider http://localhost/ || exit 1
+
+# # # Start nginx
+# # CMD ["nginx", "-g", "daemon off;"]
+
+# # Multi-stage build for RASO Frontend
+# # CHANGE 1: Capitalized 'AS' for better compatibility/standards
+# FROM node:18-alpine AS build
+
+# # Set working directory
+# WORKDIR /app
+
+# # 1. Copy package files (Correct path from root context)
+# COPY frontend/package*.json ./
+
+# # CHANGE 2: Added --legacy-peer-deps to bypass the TypeScript version conflict
+# RUN npm install --omit=dev --legacy-peer-deps
+
+# # 2. Copy source code
+# # CHANGE 3: Ensured the source is copied to "." (the current WORKDIR /app)
+# # This prevents the "missing index.html" error by putting files where npm expects them.
+# COPY frontend/ .
+
+# # OPTIONAL: Added a diagnostic check to verify files exist before building
+# RUN ls -la /app/public
+
+# # Build the application
+# RUN npm run build
+
+# # Production stage
+# FROM nginx:alpine
+
+# # Copy built assets from build stage
+# COPY --from=build /app/build /usr/share/nginx/html
+
+# # Copy nginx configuration
+# COPY docker/nginx.conf /etc/nginx/nginx.conf
+
+# # Expose port
+# EXPOSE 80
+
+# # Health check
+# HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+#     CMD wget --no-verbose --tries=1 --spider http://localhost/ || exit 1
+
+# # Start nginx
+# CMD ["nginx", "-g", "daemon off;"]
+
+FROM node:18-alpine AS build
+WORKDIR /app
+
+# Copy the specific folder directly
+COPY ./frontend/package*.json ./
+RUN npm install --omit=dev --legacy-peer-deps
+
+# Copy the entire frontend directory contents into the current /app
+COPY ./frontend/ ./
+
+# This should now show your files
+RUN ls -la /app
+RUN npm run build

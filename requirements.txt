@@ -1,60 +1,86 @@
-# Core Dependencies
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.5.0
-pydantic-settings==2.1.0
+# RASO Platform - Production Dependencies
 
-# LangGraph and AI
-langgraph==0.0.62
-langchain==0.1.0
-langchain-community==0.0.10
-langchain-core==0.1.0
+# Core Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
 
-# LLM Providers
-ollama==0.1.7
-openai==1.3.0
-anthropic==0.7.0
+# Google Gemini LLM (Primary)
+google-generativeai>=0.8.0
+google-ai-generativelanguage>=0.6.0
 
-# Data Processing
-PyMuPDF==1.23.0
-arxiv==1.4.8
-requests==2.31.0
-beautifulsoup4==4.12.0
-lxml==4.9.0
+# LangGraph and AI Framework
+langgraph>=0.2.0
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
 
-# Audio Processing
-TTS==0.20.0
-pydub==0.25.1
-librosa==0.10.1
+# Backup LLM Providers
+openai>=1.0.0
+anthropic>=0.8.0
 
-# Video Processing
-opencv-python==4.8.0.76
-imageio==2.31.0
-imageio-ffmpeg==0.4.9
+# Document Processing
+PyMuPDF>=1.23.0
+arxiv>=2.1.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
 
-# Animation Libraries
-manim==0.17.3
+# Audio Processing - Production TTS
+pydub>=0.25.0
+librosa>=0.10.0
+soundfile>=0.12.0
+gtts>=2.4.0
 
-# Database and Storage
-redis==5.0.1
-sqlalchemy==2.0.23
-alembic==1.13.0
+# Video Processing - Production
+opencv-python>=4.8.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.0
+moviepy>=1.0.3
+pillow>=10.0.0
 
-# Testing
-pytest==7.4.0
-pytest-asyncio==0.21.0
-hypothesis==6.88.0
-pytest-cov==4.1.0
+# Animation Libraries - Production
+manim>=0.18.0
 
-# Development
-black==23.11.0
-isort==5.12.0
-flake8==6.1.0
-mypy==1.7.0
+# Google Services Integration
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.2.0
 
-# Utilities
-python-dotenv==1.0.0
-python-multipart==0.0.6
-aiofiles==23.2.1
-httpx==0.25.0
-tenacity==8.2.0
+# Database and Caching
+redis>=5.0.0
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Production Utilities
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+aiofiles>=23.2.0
+httpx>=0.25.0
+tenacity>=8.2.0
+
+# Monitoring and Logging
+structlog>=23.2.0
+prometheus-client>=0.19.0
+
+# Security
+cryptography>=41.0.0
+passlib>=1.7.4
+
+# Performance
+asyncio-throttle>=1.0.2
+aioredis>=2.0.0
+
+# Testing (Development)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+hypothesis>=6.88.0
+pytest-cov>=4.1.0
+
+# Code Quality (Development)
+black>=23.9.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.6.0

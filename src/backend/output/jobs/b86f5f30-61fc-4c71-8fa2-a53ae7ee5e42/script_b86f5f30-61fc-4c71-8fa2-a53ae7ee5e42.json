@@ -1,0 +1,66 @@
+{
+  "analysis": {
+    "title": "Attention Is All You Need\n",
+    "field": "Research",
+    "contributions": [
+      "Novel approach",
+      "Improved methodology"
+    ],
+    "methodology": "Advanced computational methods",
+    "significance": "Contributes to the advancement of the field",
+    "audience_level": "intermediate",
+    "video_structure": [
+      "Introduction",
+      "Methodology",
+      "Results",
+      "Conclusion"
+    ],
+    "key_concepts": [
+      "Innovation",
+      "Analysis",
+      "Results"
+    ],
+    "estimated_duration": 60
+  },
+  "script": {
+    "title": "Attention Is All You Need\n",
+    "total_duration": 45.0,
+    "scenes": [
+      {
+        "id": "intro",
+        "title": "Introduction",
+        "duration": 8.0,
+        "narration": "Today we explore the research paper 'Attention Is All You Need\n' and its contributions to the field.",
+        "visual_description": "Title slide with paper information",
+        "paper_title": "Attention Is All You Need\n"
+      },
+      {
+        "id": "methodology",
+        "title": "Methodology",
+        "duration": 12.0,
+        "narration": "This research presents a novel approach to solving important problems in the field.",
+        "visual_description": "Methodology overview diagram",
+        "paper_title": "Attention Is All You Need\n"
+      },
+      {
+        "id": "results",
+        "title": "Results",
+        "duration": 15.0,
+        "narration": "The results demonstrate significant improvements and provide valuable insights.",
+        "visual_description": "Results visualization",
+        "paper_title": "Attention Is All You Need\n"
+      },
+      {
+        "id": "conclusion",
+        "title": "Conclusion",
+        "duration": 10.0,
+        "narration": "This work opens new possibilities and directions for future research.",
+        "visual_description": "Conclusion summary",
+        "paper_title": "Attention Is All You Need\n"
+      }
+    ]
+  },
+  "job_id": "b86f5f30-61fc-4c71-8fa2-a53ae7ee5e42",
+  "timestamp": 1768566636.2279801,
+  "gemini_used": true
+}

@@ -1,0 +1,32 @@
+{
+  "animation_generators": [
+    "src\\agents\\animation.py",
+    "src\\agents\\comprehensive_animation_generator.py",
+    "src\\agents\\generate_animation_bridge.py",
+    "src\\agents\\manim_animation_generator.py"
+  ],
+  "video_composers": [
+    "src\\agents\\moviepy_composer.py",
+    "src\\agents\\opencv_composer.py",
+    "src\\agents\\pil_composer.py",
+    "src\\agents\\python_video_composer.py",
+    "src\\agents\\video_composition.py"
+  ],
+  "audio_generators": [
+    "src\\agents\\audio.py",
+    "src\\agents\\generate_audio_bridge.py"
+  ],
+  "script_generators": [
+    "src\\agents\\script.py",
+    "src\\agents\\script_enhanced.py"
+  ],
+  "backup_files": [
+    "src\\agents\\simple_animation_generator_backup.py"
+  ],
+  "simple_versions": [
+    "src\\agents\\simple_animation_generator.py",
+    "src\\agents\\simple_audio_generator.py",
+    "src\\agents\\simple_mp4_generator.py",
+    "src\\agents\\simple_script_generator.py"
+  ]
+}

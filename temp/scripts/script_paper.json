@@ -1,0 +1,74 @@
+{
+  "total_duration": 105.6,
+  "total_scenes": 5,
+  "target_audience": "general",
+  "language": "en",
+  "word_count": 220,
+  "scenes": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "narration": "Welcome to this explanation of 'Attention Is All You Need'. This research tackles an important challenge: This research addresses fundamental challenges and limitations in the field of attention is all you need, providing novel insights and methodological advances. In exploring 1 key concepts, this work presents a significant advancement. Let's dive into what makes this research so interesting.",
+      "duration": 23.2,
+      "concepts": [
+        "research problem",
+        "motivation",
+        "context"
+      ],
+      "visual_type": "remotion",
+      "word_count": 58
+    },
+    {
+      "id": "insight",
+      "title": "Key Insight",
+      "narration": "So what's the key breakthrough here? The key insight underlying this work is that attention is all you need can be significantly improved through innovative approaches that address core limitations in existing methods. This insight opens up new possibilities for solving the problem.",
+      "duration": 20.0,
+      "concepts": [
+        "key insight",
+        "technical approach",
+        "innovation"
+      ],
+      "visual_type": "motion-canvas",
+      "word_count": 43
+    },
+    {
+      "id": "contributions",
+      "title": "Main Contributions",
+      "narration": "This research makes several important contributions to the field. First, novel methodological approach presented in attention is all you need that advances the state of the art. Second, comprehensive theoretical analysis and empirical evaluation of the proposed methods. Finally, practical implementation framework with demonstrated effectiveness and broad applicability. These contributions represent significant advances in our understanding.",
+      "duration": 22.4,
+      "concepts": [
+        "contributions",
+        "advances",
+        "methodology"
+      ],
+      "visual_type": "remotion",
+      "word_count": 56
+    },
+    {
+      "id": "results",
+      "title": "Results and Impact",
+      "narration": "Let's look at what the results show us. This has applications in 1 practical concepts These results validate the effectiveness of the proposed approach.",
+      "duration": 20.0,
+      "concepts": [
+        "experimental results",
+        "validation",
+        "applications"
+      ],
+      "visual_type": "manim",
+      "word_count": 24
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "narration": "To wrap up our exploration of 'Attention Is All You Need': Looking ahead, the 1 concepts explored here open new research directions This research opens new doors for future investigations. Thanks for joining me in exploring this fascinating work!",
+      "duration": 20.0,
+      "concepts": [
+        "significance",
+        "future work",
+        "impact"
+      ],
+      "visual_type": "remotion",
+      "word_count": 39
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Attention Is All You Need",
+  "authors": [
+    "Ashish Vaswani",
+    "Noam Shazeer",
+    "Niki Parmar",
+    "Jakob Uszkoreit"
+  ],
+  "year": 2017,
+  "source_video": "docs\\papers\\2026Vaswani_Attention_Is_All_You_Need_05\\videos\\raso_video_1767801085.mp4",
+  "output_video": "output\\attention_paper_final\\Attention_Is_All_You_Need_Professional_Video.mp4",
+  "file_size": 2018858,
+  "production_method": "Existing asset optimization"
+}

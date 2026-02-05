@@ -28,6 +28,9 @@ classifiers = [
     "Topic :: Multimedia :: Video",
     "Topic :: Education",
 ]
+dependencies = [
+    "ffmpeg>=1.4",
+]
 
 [project.urls]
 Homepage = "https://github.com/raso-platform/raso"

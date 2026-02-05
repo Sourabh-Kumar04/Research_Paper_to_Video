@@ -1,0 +1,12 @@
+# Ignore disabled components and related files
+src/**/*.disabled/**
+src/components.disabled/**
+src/services.disabled/**
+src/types.disabled/**
+src/hooks.disabled/**
+
+# Standard ignores
+node_modules/
+build/
+dist/
+*.min.js

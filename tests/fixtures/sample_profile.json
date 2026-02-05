@@ -1,0 +1,24 @@
+{
+  "id": "test-profile-001",
+  "name": "Test Profile",
+  "description": "Test cinematic profile",
+  "settings": {
+    "camera_movements": {
+      "enabled": true,
+      "intensity": 50
+    },
+    "color_grading": {
+      "enabled": true,
+      "film_emulation": "none"
+    },
+    "sound_design": {
+      "enabled": true,
+      "ambient_audio": true
+    },
+    "advanced_compositing": {
+      "enabled": true,
+      "film_grain": true
+    },
+    "quality_preset": "cinematic_4k"
+  }
+}

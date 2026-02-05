@@ -1,0 +1,59 @@
+{
+  "id": "a5e70577-77d6-4b9f-9d7b-3fb290d1a741",
+  "name": "Nested Profile",
+  "description": "Test",
+  "settings": {
+    "camera_movements": {
+      "enabled": true,
+      "allowed_types": [
+        "static",
+        "pan",
+        "zoom",
+        "dolly",
+        "crane",
+        "handheld"
+      ],
+      "intensity": 50,
+      "auto_select": true
+    },
+    "color_grading": {
+      "enabled": true,
+      "film_emulation": "none",
+      "temperature": 0,
+      "tint": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "brightness": 0,
+      "shadows": 0,
+      "highlights": 0,
+      "auto_adjust": true
+    },
+    "sound_design": {
+      "enabled": true,
+      "ambient_audio": true,
+      "music_scoring": true,
+      "spatial_audio": false,
+      "reverb_intensity": 30,
+      "eq_processing": true,
+      "dynamic_range_compression": true,
+      "auto_select_music": true
+    },
+    "advanced_compositing": {
+      "enabled": true,
+      "film_grain": true,
+      "dynamic_lighting": true,
+      "depth_of_field": false,
+      "motion_blur": false,
+      "professional_transitions": true,
+      "lut_application": true
+    },
+    "quality_preset": "cinematic_4k",
+    "auto_recommendations": true
+  },
+  "user_id": "test_user",
+  "is_default": false,
+  "is_system": false,
+  "created_at": "2026-01-13T03:17:49.961980",
+  "last_used": "2026-01-13T03:17:49.961980",
+  "usage_count": 0
+}

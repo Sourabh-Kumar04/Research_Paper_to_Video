@@ -1,1 +1,0 @@
-# RASO Platform Test Suite

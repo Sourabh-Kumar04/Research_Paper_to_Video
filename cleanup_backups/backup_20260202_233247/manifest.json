@@ -1,0 +1,1103 @@
+{
+  "timestamp": "20260202_233247",
+  "backup_directory": "cleanup_backups\\backup_20260202_233247",
+  "files_backed_up": [
+    {
+      "path": ".env.backup",
+      "size": 2156,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "4acd719b7ae493096df26494cb1d5b77342638fbb496c94e9f3f73c472b93284"
+    },
+    {
+      "path": "ALL_TEXT_ISSUES_FIXED.md",
+      "size": 4436,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "f80afc083b2c79868a27618e101b10d00ca8a95b8bc1a507643b1fcb056ee6f9"
+    },
+    {
+      "path": "ANIMATION_SYSTEM_FIXED.md",
+      "size": 7706,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "b0652ea26a9a36aef071705a723c2917e4a589dd2715b3467f6c6f151ae0245b"
+    },
+    {
+      "path": "check_errors.py",
+      "size": 6082,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "fbc5d37990b39a298d9c3c714e14fc4497f462fdb64ad00eaccf82126dcc95d6"
+    },
+    {
+      "path": "check_scene_words.py",
+      "size": 1671,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "ad11e64c4cb3185f82ed5022c5d129fe0c326c190d07211fca57deb80689ec5a"
+    },
+    {
+      "path": "check_system_status.py",
+      "size": 1764,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "471839e2b06afcaf374e0de912d1b5c3bb561c48573805e3ab6a156f09f0c380"
+    },
+    {
+      "path": "CINEMATIC_FEATURES_STATUS.md",
+      "size": 7788,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "ad6a1825b907d04b4334a307e2249340d4b668aa6256b6c01f082ece4a898a85"
+    },
+    {
+      "path": "CINEMATIC_PRODUCTION_COMPLETE.md",
+      "size": 9870,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "bcfcd5bc7439b784857087245e622a13ad918f252e412250ec89fbfcae8f78f9"
+    },
+    {
+      "path": "CINEMATIC_UI_ENHANCEMENT_COMPLETE.md",
+      "size": 10619,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "9012376c265d3c8dc1522a1227c2082a2b235cf48ced500d44700c107208cd06"
+    },
+    {
+      "path": "COMPREHENSIVE_20MIN_VIDEOS_COMPLETE.md",
+      "size": 10244,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "f306216d6effa92f8b3d17e88782fe1f8ddc6934b638c9021b4dab65965cfbd5"
+    },
+    {
+      "path": "comprehensive_syntax_fix.py",
+      "size": 1614,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "94451a77313e9a3e3c9f186e8623701b4a23138388267bf8b76e79d2d2839849"
+    },
+    {
+      "path": "COMPREHENSIVE_VIDEO_FIX_COMPLETE.md",
+      "size": 2517,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "93a241e6aedfdbc64db4034ac25011a552971784d9cd1d24b3fb778de2cb3ef6"
+    },
+    {
+      "path": "CONTENT_TEXT_AND_MODEL_FIXED.md",
+      "size": 5303,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "810c9db8117ddec5a172ac73b70f0e4d3a691275d85f15f21abbc961cb41ccb9"
+    },
+    {
+      "path": "debug_fallback_script.py",
+      "size": 1536,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "ed2cd58fcd190e4bc798c0cda08ab117fc4ae22bace4da7b58def00e25a6b0c3"
+    },
+    {
+      "path": "debug_gemini_model.py",
+      "size": 2974,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "0093d7589176b981fa2eca825d520812f29354aa797e602224f764e8d1c00743"
+    },
+    {
+      "path": "debug_while_loop.py",
+      "size": 10145,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "a1e07dd75f7e36c3259fcbf9c5ddb70cd920803b58f830d2deb1c0d669d47eb3"
+    },
+    {
+      "path": "diagnose_placeholder_issue.py",
+      "size": 5180,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "32637fb7053f2cd405af93d3b4e3ec27fbcdae85f03415995c66d4c54ac90f48"
+    },
+    {
+      "path": "diagnose_system.py",
+      "size": 9967,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "a9fdb9c630af060b9b8d3cb1ab6303ed1f867d3738895160a606841bc85c7c63"
+    },
+    {
+      "path": "DOWNLOAD_ERROR_FIXED.md",
+      "size": 5309,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "e7958948b7144aa1cd473a0c5b99cca3ba2d4a6e0239a137507508499aadedc3"
+    },
+    {
+      "path": "DURATION_FIXES_COMPLETE.md",
+      "size": 9847,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2ff6ab22894c58a8def2ddb8562e01bb26e211b05d63540cad77a23b0d67769f"
+    },
+    {
+      "path": "enable_gemini_only_mode.py",
+      "size": 11417,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "5c768e831c121721bd551c771f1116e70ad90aeda9af4dca4c095c2492cecad7"
+    },
+    {
+      "path": "enhance_scenes_final.py",
+      "size": 10695,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "d1d775a1c3b10f566148a1daf2b36a5ec69b3193fad3bfe6eed479673632e4fd"
+    },
+    {
+      "path": "enhance_scenes_targeted.py",
+      "size": 12760,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "8badf9cb33b28e4921f4c059071bf8d6ed04caf6a1be2b1e3d9e2504158257cf"
+    },
+    {
+      "path": "enhance_scene_content.py",
+      "size": 22732,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "844a9e896dce759027a2fe85f52e03760084e8cf35cd428b32e63fbff50af944"
+    },
+    {
+      "path": "enhance_specific_scenes.py",
+      "size": 12026,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2067ee021c600ca0dc6c67bf473722bf9295b8d839e3c7e32105155c9a853e77"
+    },
+    {
+      "path": "ERRNO_22_FIX_COMPLETE.md",
+      "size": 5297,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "18e36bbb0ffa10fed8d814c043b4070f19b1690a6d09446536bda37be86cd811"
+    },
+    {
+      "path": "ERROR_FIXES_COMPLETE.md",
+      "size": 7191,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "93cdf19b5a2961537d35aaae369d4752e3f4736517a14ad0e506f6866493d53b"
+    },
+    {
+      "path": "FINAL_FIX_COMPLETE.md",
+      "size": 3856,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "759be8c207d38c04ceffbbf0d6cad589ed168c3ebf57280793ed2026245bab0f"
+    },
+    {
+      "path": "FINAL_PLACEHOLDER_FIX.bat",
+      "size": 1742,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "a893aeb79f15b3a1141f9aa837b0f4769d5c5743517f768b9323567ac41880b3"
+    },
+    {
+      "path": "FINAL_PROFESSIONAL_VIDEOS_STATUS.md",
+      "size": 5799,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "f387c714db5b4aa2ac99565764338dfb71ad0d4ba78d9554531e1344cf3c1597"
+    },
+    {
+      "path": "fix_additional_scenes.py",
+      "size": 21519,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "eec7115edcbe7e906fad7f53b3fb24306fdc362e5b4c2a4776baa5dd6e3183eb"
+    },
+    {
+      "path": "fix_all_errors.py",
+      "size": 5078,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "180d7f00f7c59ac6b4fa6b43508ea9e54642fa60db8439c62ef917bbcc2c5f08"
+    },
+    {
+      "path": "fix_all_import_errors.py",
+      "size": 4360,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "fe14357cc50a7c422847fa4f04ca75bc7f7768b9ef05ed32a4d5c4750a51d2bf"
+    },
+    {
+      "path": "fix_correct_while_loop.py",
+      "size": 3926,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "5ddaabb7dcc49b7dfef7d640a1cf4938cb074a520ef8383f707ee8feaa772407"
+    },
+    {
+      "path": "fix_corrupted_function.py",
+      "size": 2971,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "b68c0232e03f8945721c9bb0dfcfe1b9a8e217df054f9013c816db5215c425d3"
+    },
+    {
+      "path": "fix_fallback_comprehensive.py",
+      "size": 5626,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "3980cf97d411ab9fa4f45014e43c6c4dd929719da3879dc84888fff8addd7434"
+    },
+    {
+      "path": "fix_fallback_final_clean.py",
+      "size": 14620,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2ee6c1f85372753cdbb42a2adc89e82ec5b52bc6f0049ecc21ecc6d003de07a1"
+    },
+    {
+      "path": "fix_fallback_script_final.py",
+      "size": 15682,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "0ffda80063fbbd901dad66a1087e6d28098b027ec4b7b3f7f8c065e11d0d505e"
+    },
+    {
+      "path": "fix_gemini_api_key.py",
+      "size": 4118,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "3e221ccf72a08db12c2b1d287ec683bb772c4d5a3bc536792d882ce93f886cee"
+    },
+    {
+      "path": "fix_gemini_comprehensive.py",
+      "size": 7025,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "859ec0d2f5679e349c770161449b734d193dc2ae7c1ca0a20d2af4d0ff1f61f6"
+    },
+    {
+      "path": "fix_gemini_final.py",
+      "size": 3451,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "445b27c49e2a85c552a516c1c3930fa6695f7b241275c1f4a055a22883594a04"
+    },
+    {
+      "path": "fix_gemini_model_loading.py",
+      "size": 4785,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "51e2c15fce624d379e4b304fda3870980400e51c2ffa362e97bab042f1be8609"
+    },
+    {
+      "path": "fix_imports.py",
+      "size": 2824,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "f7a0f1257d6f8e7ba2f2becbf10e86ea37b998ad0529e7355d59d6fe52ebb701"
+    },
+    {
+      "path": "fix_manim_function.py",
+      "size": 3884,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "9388258d825554ded0dd8abf2df5709822a9112b14b19388e27b63ee4b729cd5"
+    },
+    {
+      "path": "fix_placeholder_final_solution.py",
+      "size": 7604,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "4e6d5bbf5729ae7e2235aecd0f07900cda4acd1f5036e44a8eb98ee45cfc17bf"
+    },
+    {
+      "path": "fix_placeholder_issue_final.py",
+      "size": 8505,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "761c48709050fd050171b3efa97d1d675b7e2843a6e5da38f82815a67bc5ec40"
+    },
+    {
+      "path": "fix_scenes_definition.py",
+      "size": 12960,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "a77b49cb8fdfc3ba912e4cdb0ff26e89ac2583c2b9572deadeaecba03e511bfa"
+    },
+    {
+      "path": "fix_scene_narrations.py",
+      "size": 4993,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "7ac239bbc29a6ccb1d1199d0d092000d1cc9a8b8eb645f787061f77a1eb687be"
+    },
+    {
+      "path": "fix_second_while_loop.py",
+      "size": 20702,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "12e089da5f22f8dff0cd8b133c759565184c41e95ba2ea4d5c24cbb718b6942d"
+    },
+    {
+      "path": "fix_short_narrations.py",
+      "size": 9307,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "45ddb2e716f858cb9ca30a409f351b38c2132c3bf5380501b1f6ae8e0ebe1040"
+    },
+    {
+      "path": "fix_stray_commas.py",
+      "size": 882,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "f41f4b929585408481f7e5691908312a9d0d7d7e1da4ce302a8cfd3d9ba56fcc"
+    },
+    {
+      "path": "fix_syntax_error.py",
+      "size": 1238,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "5ff91b26c1f306fd51ffdc5b72941f703e5afae13845ab92cd2ce27aa5901d18"
+    },
+    {
+      "path": "fix_test_errors.py",
+      "size": 4405,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "221e1d540f4a7309db1d41deea959cd0a88e9372d6087a9ff490eb9b2cd78e72"
+    },
+    {
+      "path": "fix_text_massive.py",
+      "size": 114,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "bd2dc2fea8ada2d20b19903021e8cdcd58aba0edc22c894079f6058fbf511593"
+    },
+    {
+      "path": "fix_text_size_final.py",
+      "size": 1450,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "abd5de40954e574c8c05958401358c28913d4cca844cd75d0114bef7b315eda1"
+    },
+    {
+      "path": "fix_while_loop.py",
+      "size": 1270,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "f190cd902177d4c929daf6d6bdffc7894a08140d9df60038928abdbe7984ee26"
+    },
+    {
+      "path": "force_fallback_mode.py",
+      "size": 3208,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "7ddce7de697cc1ee354e77205f00d54912384ff01d8ead2925849f026fd9a5ad"
+    },
+    {
+      "path": "FORCE_FIX_PLACEHOLDER.bat",
+      "size": 1238,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "a22c491ce4da5b28c7de8ef1aa7454570eba4773c4bbb840b77bfdc75138e7ee"
+    },
+    {
+      "path": "force_new_api_key.py",
+      "size": 3388,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "3bc99479ada1e8a7e77999bad6d92d0727f5147519d52b3aaf725644f6cf96ac"
+    },
+    {
+      "path": "FRONTEND_FIXES_COMPLETE.md",
+      "size": 4672,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "5ef64ad2a19379289b5608ad8fa7167958635f5c95d6ab76b7615f5526c9c233"
+    },
+    {
+      "path": "GEMINI_FIXED.md",
+      "size": 2729,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "5d2cbde1f72ab57b01a8b59a2ad71ea47ecc3afcbbae9aa4e223bc6fa11f4d66"
+    },
+    {
+      "path": "implement_massive_text.py",
+      "size": 7858,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "771712bdba008f46a4b746fcdc78d82db65689f3f43b5b10999727b87e3eac43"
+    },
+    {
+      "path": "inspect_scene_structure.py",
+      "size": 5662,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "941a6394bc51847e79bfe7a5469de1696e00f83a4241856343481cbc0a4811b0"
+    },
+    {
+      "path": "list_available_models.py",
+      "size": 2323,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "7e315cc29c93a6c0b6a78ba033c7b60b219abcaa2f4191565492213735337083"
+    },
+    {
+      "path": "PAPER_TITLE_INJECTION_FIXED.md",
+      "size": 1814,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "29f69d0573ee8289e452a15b40cdf1d67f8c3c27856fb43b103da098acbe0176"
+    },
+    {
+      "path": "PRODUCTION_SETUP_COMPLETE.md",
+      "size": 6406,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "8910526b801d45c04da21bdd4630383c1d6e9612816ce10a5701e07a9ec7a933"
+    },
+    {
+      "path": "PROFESSIONAL_EDUCATIONAL_VIDEOS_COMPLETE.md",
+      "size": 10665,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "317ba6bd83c314d13d315a544a3515d79337120008f168e97d3c5d0d8b99c3e8"
+    },
+    {
+      "path": "PROJECT_RUNNING_STATUS.md",
+      "size": 3709,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2297521a5ca3ef4b38893297756271285c2edd74a8bf94a32854866a63355d90"
+    },
+    {
+      "path": "RASO_CINEMATIC_SYSTEM_COMPLETE.md",
+      "size": 13370,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "8bcfc18cbb3c4adad07267eb2c074e92f25789f6681f0cef4b20b60dab73da89"
+    },
+    {
+      "path": "simple_gemini_test.py",
+      "size": 1016,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "9fb2b04915f7745ac68556d15e6bdae8237eced614507d10c136435f40887f46"
+    },
+    {
+      "path": "simple_metadata_fix.py",
+      "size": 2389,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "ee3c19d7551e026a8aa52054bb8d249f77caf9f53623c5f3da36c128b9ffab8e"
+    },
+    {
+      "path": "start-backend.ps1",
+      "size": 634,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "561fe8241f937b4ee3794b3555261be851900724ccbcd1c55e76a89a3101f671"
+    },
+    {
+      "path": "start_backend_now.bat",
+      "size": 55,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "764eb6aec5d95f10005a60ca4c71eb3e1c5578010f202c15f3c35de333c5640f"
+    },
+    {
+      "path": "start_backend_port_8000.bat",
+      "size": 468,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "c25c13b6956cc8307c6cdd910ee81b3550a01479264d0f7c2efc2bc75c6e1a23"
+    },
+    {
+      "path": "start_complete_system.bat",
+      "size": 1444,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "ff8263d7499117106ba3fd3276015ec4246e2a6988e27cf252f284b7ef9f650f"
+    },
+    {
+      "path": "SYSTEM_STATUS.md",
+      "size": 4289,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "3f4cc498f6d824680611a122993cb058dda082ef25027285fc89ccb20d57475f"
+    },
+    {
+      "path": "TASK_COMPLETION_STATUS.md",
+      "size": 10908,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "f85e4bb6add165c0b5f8865f7a3d61d8686d0a037c9c0ad2fc19c1193f65882d"
+    },
+    {
+      "path": "test_actual_generation.py",
+      "size": 3570,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "ccd443e1733902eefdf91c8845f79220e4e12514c27230023512962e7e988400"
+    },
+    {
+      "path": "test_alternative_models.py",
+      "size": 2615,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "dc20a82aa4c1d6189a963fd3789f0e9e35a73128d99ce9696f86c5c41675bfd4"
+    },
+    {
+      "path": "test_api_request.py",
+      "size": 4921,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "af47d2034abec5d9dd5797efb00c7d17d6f9b4d89b95f83e39608a0de00f26f8"
+    },
+    {
+      "path": "test_attention_paper.py",
+      "size": 4901,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2a681ad19c3c23b5b99ca1c61006fabb00677d59d6cec55fe8635be544839f17"
+    },
+    {
+      "path": "test_backend_connection.py",
+      "size": 2659,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "139c831a063679b1a9fce54e683868ffbde738909a086673a995433deb4e057d"
+    },
+    {
+      "path": "test_cinematic_api.py",
+      "size": 5515,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "25581406e8e9a5cac6caf80c7e3e9848d045a0499048c14bda3a1e41be15b884"
+    },
+    {
+      "path": "test_download_endpoint.py",
+      "size": 1638,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "18323f2f184c2265f7f969ce87a7a2fdba66912670f5bfccfdb57b89fd82a60a"
+    },
+    {
+      "path": "test_duration_fixes.py",
+      "size": 13368,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "75f09a45af231ea6da4794baa9c000ff85491235a37308a754ca07f2b4b616a6"
+    },
+    {
+      "path": "test_educational_quality.py",
+      "size": 14227,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2bf726e398e98ac1ba0b129eade30bf425749ae8223a9b7f7413e617d820fa89"
+    },
+    {
+      "path": "test_fallback_duration.py",
+      "size": 7068,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "b3d5475e7b12b9798c4d2e82c88b729251e45cc1f711f1fd6e13e9a00ccb704a"
+    },
+    {
+      "path": "test_fallback_only.py",
+      "size": 2261,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "3d3904d57978ffe911f2987f15d673d94dd22c2044dca0a174ce708523c074c0"
+    },
+    {
+      "path": "test_fixed_generation.py",
+      "size": 2914,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "4650a1b16cbaa1e03c93542d89461f289698c17a3a1b228df110463b58014069"
+    },
+    {
+      "path": "test_fresh_api_key.py",
+      "size": 1811,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2dff82b0a42fa6eb148e34e6f82bcde681e8b3eaf390a255e06c06dd853b53b7"
+    },
+    {
+      "path": "test_frontend_api_call.py",
+      "size": 1587,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "6a109ba63d8dc0730bb5d69d7692b70a6d0dc07a1479f90c05c7c4db95f37506"
+    },
+    {
+      "path": "test_frontend_backend_integration.py",
+      "size": 4568,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "98bd2c924f3ceffff3f8e7b02476326757ded82e98de6873a42f32c7f54cf7d3"
+    },
+    {
+      "path": "test_gemini_import.py",
+      "size": 2335,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "d4b7ea22fff4a13f3791c6f9e2276850f6cadcc2ab56dbdc129d39ca9ccd06fe"
+    },
+    {
+      "path": "test_gemini_only_mode.py",
+      "size": 4458,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "7736d3608b379d58334f8498cafac0b0e3f64d37a50e17f22d1b62afaf1df7e5"
+    },
+    {
+      "path": "test_massive_text_fix.py",
+      "size": 1652,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "b7a50194f70028b1e6768e02e96cd108ce25258408ad5687f1cfe278eb4ba89b"
+    },
+    {
+      "path": "test_new_api_final.py",
+      "size": 2277,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "f71e85ffac3a7b2ad0a0f5b0713cb7abf72faf27f22348b359d4d88b598eaa8e"
+    },
+    {
+      "path": "test_new_gemini_api.py",
+      "size": 3367,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "46d1a36dd6458fb2145ff0320d1edbbb72f875506eef4009cf43ac5499680c62"
+    },
+    {
+      "path": "test_port_3000.py",
+      "size": 750,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "617774b2727bf8da035b202dcca742fa13acfb679a379a7d58889cc004e0dce4"
+    },
+    {
+      "path": "test_production_fallback.py",
+      "size": 2471,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2f8cb782345cc8561060e2c9f19de3684035892f775b1d2359ea2b7d7826e0ea"
+    },
+    {
+      "path": "test_production_integration.py",
+      "size": 10037,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "a4c64008bb28d317fbe6c1509f53e120f6a852b7a346d825296ab2bcf9f146b5"
+    },
+    {
+      "path": "test_professional_video.py",
+      "size": 6488,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "da2b654897e99fd286bb42af6b64c89b25a493199f4a2656e37626b69ae1d95d"
+    },
+    {
+      "path": "test_professional_video_generation.py",
+      "size": 12054,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "4d0d0f1508ec3ab1ac69206dcda0500a21b611580f518553bbe53a9682b899c0"
+    },
+    {
+      "path": "test_scene_structure.py",
+      "size": 10424,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "da86c6cd991b601bcee1d3e6bcc0b8c5c94ed2dc9b2091d4545554b5f86c891a"
+    },
+    {
+      "path": "test_simple_job.py",
+      "size": 2324,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "dd07b2ee5009adae6018b57f1d0c34ddc94c9e179ae098882b33476cea479f08"
+    },
+    {
+      "path": "test_text_fix_simple.py",
+      "size": 4614,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "892939d2b465ae83399ef85dec95cc95b9e9529a971961291bfa26bf6144fabc"
+    },
+    {
+      "path": "test_video_generation.py",
+      "size": 5725,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "a89198d2b1d8ce658394542e456f07ce5591f8aa3ede010d5e13f1647805c8d5"
+    },
+    {
+      "path": "test_workflow_direct.py",
+      "size": 1767,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "be57b4b1dcf4ace9e9e364a2367a97b91f84f518e0dd86a9d1dd2f94e697c669"
+    },
+    {
+      "path": "test_working_model.py",
+      "size": 3455,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "507a36e78bdfc44a5e6cfa1f3960cb84a6d8222a481313de50a46a619667290c"
+    },
+    {
+      "path": "TEXT_AND_TIMING_FIXED.md",
+      "size": 2903,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "c50848fca8b7346c96b6590f9539828b0cb409421c6c55f6c4e262763e656397"
+    },
+    {
+      "path": "TEXT_SIZING_FIXED.md",
+      "size": 4925,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "0aa41b94e3580d4a8d6f5faa287bf65ae7b69092e14cff80c0c5096589a4ea49"
+    },
+    {
+      "path": "upgrade_video_quality.py",
+      "size": 8913,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "32771741f720a626c49e1970afaf08bfeec23d584d90e099569eed886b0b941b"
+    },
+    {
+      "path": "verify_font_changes.py",
+      "size": 2751,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "82a49b11539ae273e68c539bdc78c2823a35a0fb26a4879418bf7c00ed4cb7da"
+    },
+    {
+      "path": "VISUAL_STORYTELLING_FIXED.md",
+      "size": 8187,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "23acf3ebcdc18ff3b152c695fa25713c48d8799adb40041bcb07f0ff465f6927"
+    },
+    {
+      "path": "WINDOWS_PATH_FIXES_COMPLETE.md",
+      "size": 2266,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "26328c66606c3083c6c1ff7fdc92181d8d57fcf0120cf5feb5375862e611573e"
+    },
+    {
+      "path": "agents\\simple_animation_generator.py",
+      "size": 31808,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "647f69a4fca180dadde6e9a2a6f8f8dd71858985738119e55caee856fb22819f"
+    },
+    {
+      "path": "docs\\PROJECT_STATUS.md",
+      "size": 9377,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "e929039fd7db80d1aeb90032ab6038b28400f5fb67f2d552dacda2c44c1268ee"
+    },
+    {
+      "path": "docs\\SYSTEM_STATUS.md",
+      "size": 8629,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "2d6e109ba1a7f587becc763f8916ff5c8304a89d6283ec877ea931172f559a14"
+    },
+    {
+      "path": "docs\\VIDEO_COMPOSITION_FIXED.md",
+      "size": 5333,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "cd15e649be81043ea31cd16bbf5036311fc17df58122df5d922eb13b7de1bf4c"
+    },
+    {
+      "path": "scripts\\check_job_status.py",
+      "size": 1024,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "b8bee273e5c82365cd6c5d1e352025347ae2c68fac025774455953b7a1f3154c"
+    },
+    {
+      "path": "scripts\\comprehensive_system_check.py",
+      "size": 6700,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "ca7200feb5d938114c4f38158b91c968ff26506c5f19c6861f46d9cd7ea6b6d0"
+    },
+    {
+      "path": "scripts\\debug_full_pipeline.py",
+      "size": 7642,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "046aedc9640f3a83a310272cbc2a209b33bc9eb1e6276ac9f0d7175345c71bf6"
+    },
+    {
+      "path": "scripts\\debug_pipeline_failure.py",
+      "size": 4883,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "16add0ee70f43dde92a17cfe55a7e2519fa7175dbdd8272c8c48ad4d82117b95"
+    },
+    {
+      "path": "scripts\\debug_video_composition.py",
+      "size": 7306,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "3036694b24858539a146e2204285211c91f3ea3d555edf44f1050ae71be9033e"
+    },
+    {
+      "path": "scripts\\fix_ffmpeg_and_test.py",
+      "size": 5303,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "d75b7b5323ae2d93b421bedc0181ecfc6fc700b633b8e33408e8b3302a9f2f27"
+    },
+    {
+      "path": "scripts\\setup_windows.ps1",
+      "size": 1996,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "aeb8999b8363fe134fb690fa16f4d4c016c168f2d122a7a487224b4745ee42bc"
+    },
+    {
+      "path": "scripts\\simple_video_generator.py",
+      "size": 0,
+      "category": "temporary",
+      "is_duplicate": true,
+      "duplicate_group": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts\\simple_working_test.py",
+      "size": 0,
+      "category": "temporary",
+      "is_duplicate": true,
+      "duplicate_group": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts\\simple_working_video.py",
+      "size": 4248,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "bcc655d88d3e6fe216a195bf624361a16fb8356a8b3a8c7c9c6d8046521d9fca"
+    },
+    {
+      "path": "src\\agents\\check_capabilities.py",
+      "size": 3833,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "76696bc99b4bc72bbe3283aeed673043b4c962eb9b5c022d007590fcb31f6117"
+    },
+    {
+      "path": "src\\agents\\comprehensive_animation_generator.py",
+      "size": 13527,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "78f709c2ee6facfa30fb46d26b4beece6878f01bee5bf30cb2b5281a3f80947e"
+    },
+    {
+      "path": "src\\agents\\simple_animation_generator.py",
+      "size": 15554,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "ccce40b92a72f0393b1200d4b34cfb8b7a8ed3f4f7f30ea4000eb04416170494"
+    },
+    {
+      "path": "src\\agents\\simple_animation_generator_backup.py",
+      "size": 15542,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "64e43ce505f9e248611d69d83d4bf5518837b02592488a02944b9fa9afef668d"
+    },
+    {
+      "path": "src\\agents\\simple_audio_generator.py",
+      "size": 28043,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "b4e315b10ed0af2f6c1b56c73093e8185b63bfd62864e6cd11ca3847d0c555dd"
+    },
+    {
+      "path": "src\\agents\\simple_mp4_generator.py",
+      "size": 4900,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "882ad4fdf0015e53309ae081a9cd2c57f85c93032ef6e3b62627a80668a0ccd9"
+    },
+    {
+      "path": "src\\agents\\simple_script_generator.py",
+      "size": 15309,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "45b08cc44e4380002148ed6c64b723283f336ec2e85a09aeec0e01df6e8ed42f"
+    },
+    {
+      "path": "src\\backend\\IMPLEMENTATION_COMPLETE.md",
+      "size": 5799,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "c6a839585bbee3aa2cd4bb32ca10b8f9105b132c26d91554d6dcd1637a603536"
+    },
+    {
+      "path": "src\\backend\\package.json.backup",
+      "size": 6,
+      "category": "temporary",
+      "is_duplicate": false,
+      "duplicate_group": null,
+      "content_hash": "54d00d867758cef816bc4685f58e327b949712b07ebd17c3485f3ffc9e9f5133"
+    }
+  ],
+  "total_size": 846315
+}
