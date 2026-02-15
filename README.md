@@ -1,4 +1,4 @@
-# RASO Video Generation Platform
+# RASO Video Generation Platform (Research Paper to explanation video)
 
 🎬 **Professional Cinematic Video Generation with AI-Powered Content Creation**
 
@@ -284,5 +284,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Quick Start**: Run `python main.py` for automated demo
 
 ---
+
 
 **The RASO platform is now generating real videos with professional quality!** 🎬✨
